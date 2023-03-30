@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    oj
+<link rel="stylesheet" href="./styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</link>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <Header id="header">
+        <nav id="nav-bar">
+            <div class="logo-container">
+                <img src="http://st2.depositphotos.com/1364916/6359/v/450/depositphotos_63590137-Blue-book-logo-vector.jpg" 
+                alt=""
+                width="60"
+                id="header-img"
+
+                />
+
+                <span class="the-product">Classic Books</span>
+            </div>
+                <ul class="nav-links">
+                    <li><a id="#features"href="#features" class="nav-link">Features</a></li>
+                    <li><a id="free_audio_book" href="#free_audio_book" class="nav-link"></a>Free Audio Book</li>
+                    <li><a id="#for_sale" href="#for_sale" class="nav-link">For Sale</a></li>
+                    <footer id="footer">
+                </ul>
+            </div>
+                </nav>
+        </nav>
+    </Header>
+    <section id="email-section">
+        <h2>Beautifully Written Masterpieces</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input 
+            type="email" 
+            required placeholder="Enter your email address" 
+            name="email"
+            id="email">
+            <input type="submit" id="submit" value="Get Started">
+        </form>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <i class="ri-file-paper-fill ri-4x icon"></i>
+            <div>
+                <h2>Premium Material</h2>
+                <p>
+                    Our Books use the best paper which is sourced locally. This will increase the longevity of your purchase.
+                </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-truck-fill ri-4x icon"></i>
+            <div>
+                <h2>1 Day Shipping</h2>
+                <p>
+                    We make sure you recieve your classic book as so that you can start reading immediately.
+                     We also provide free retunrs if you are not satisfied. 
+                </p>
+            </div>
+
+        </div>
+        <div class="feature">
+            <i class="ri-book-open-line ri-4x icon"></i>
+            <div>
+                <h2>Quality Books Only</h2>
+                <p>
+                    We make sure to only provide awesome classic books. We gurantee that the book you buys is one of the top classic books on the market.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="audio">
+
+        <iframe 
+        id="video"
+            height="400" 
+            src="https://www.youtube.com/embed/ZUbfskQ-GAY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen
+            ></iframe>
+    </section>
+
+    <section id="for_sale">
+        <h2>For Sale</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                <div class="author">Napolean Hill</div>
+                <h1 class="header">Think And Grow Rich</h1>
+                <p class="content"> First time published and released in 1937, is one of the most influential books on Personal Development, in other words, "What makes successful and rich people successful. Listen to the full Think and Grow Rich audiobook.
+                </p>
+
+                <div class="flex">
+                    <p class="main-price">$15.99</p>
+                    <p class="old-price">$19.99</p>
+                </div>
+                <button class="add">
+                    <p style="margin-left: 5px">Add to Cart</p>
+                </button>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+        </div>
+    </section>
+
+
+ 
+</body>
+</html>
